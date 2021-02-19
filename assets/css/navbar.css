@@ -84,15 +84,7 @@ nav {
   }
 }
 
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+.toggle .bars-icon {
+  color: rgb(54, 54, 54);
 }
 
