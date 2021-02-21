@@ -186,4 +186,35 @@ img {
   color: #138d13;
   margin-top: 2em;
 }
+
+.about-text {
+  margin-top: 5em;
+}
+
+.sdg-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.links h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.link-item {
+  margin-bottom: .6em;
+}
 /*# sourceMappingURL=style.css.map */

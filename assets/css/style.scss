@@ -40,3 +40,28 @@ img {
     color: rgb(19, 141, 19);
     margin-top: 2em;
 }
+
+.about-text {
+    margin-top: 5em;
+}
+
+.sdg-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    margin-top: 2em;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+}
+    .link-item {
+        margin-bottom: .6em;
+    }
