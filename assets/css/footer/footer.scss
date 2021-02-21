@@ -1,0 +1,24 @@
+footer {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid rgb(172, 171, 171);
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+.footer-author {
+    display: flex;
+    align-items: center;
+}
+
+.uni-logo {
+    text-align: center;
+}
+
+.uni-logo img {
+    height: 200px;
+    width: auto;
+}

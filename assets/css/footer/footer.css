@@ -1,0 +1,34 @@
+footer {
+  height: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid #acabab;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.footer-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uni-logo {
+  text-align: center;
+}
+
+.uni-logo img {
+  height: 200px;
+  width: auto;
+}
+/*# sourceMappingURL=footer.css.map */

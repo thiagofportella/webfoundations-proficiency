@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -20,23 +22,51 @@
 
 <body>
 
-    <nav>
-        <div class="logo">
-            Saúde & Bem Estar
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Saúde & Bem Estar</a>
+            </div>
+
+            <div class="hamburguer"><i class="fa fa-bars"></i></div>
+
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Objetivos</a></li>
+                <li><a href="#">Metas</a></li>
+                <li><a href="#">Créditos</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="main-image-container">
+            <div class="main-image"></div>
         </div>
 
-        <ul class="nav-links">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Objetivo</a></li>
-            <li><a href="#">Metas</a></li>
-            <li><a href="#">Créditos</a></li>
-        </ul>
+        <section class="home-about">
+            <h1>Saúde & Bem Estar</h1>
 
-        <div class="bars">
-            <i class="fa fa-bars bars-icon"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde a, corrupti placeat dolores blanditiis, officia culpa expedita provident inventore officiis saepe! Porro provident dolorum alias harum voluptate! Eligendi quibusdam laboriosam neque blanditiis quia deserunt porro, error modi architecto dolores minus repellendus obcaecati similique qui consequuntur quidem id officiis. Facilis, quaerat sequi excepturi in ullam laboriosam animi esse distinctio velit culpa amet iusto totam magnam nam necessitatibus, perferendis tenetur praesentium unde odio, impedit reprehenderit placeat? Tempora nemo consectetur dicta minus nisi aliquid architecto cumque corrupti commodi eius magni fugiat sint, corporis consequuntur labore et expedita dolorem ratione! Necessitatibus, assumenda nesciunt?</p>
+
+            <a href="#"><p class="read-more">Saiba mais</p></a>
+
+        </section>
+            
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="uni-logo">
+                <a href="http://www.cefet-rj.br/" target="_blank"><img src="assets/img/cefet-logo.png" alt="Logo CEFET/RJ"></a>
+            </div>
         </div>
 
-    </nav>
+    </footer>
 
     <script src="assets/js/navbar.js"></script>
 </body>

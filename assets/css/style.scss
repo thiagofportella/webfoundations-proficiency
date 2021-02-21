@@ -1,0 +1,42 @@
+@import "./header/header";
+@import "./footer/footer";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-image-container {
+    height: 50vh;
+    margin-bottom: 4em;
+}
+
+    .main-image {
+        justify-content: center;
+        background-image: url('../img/home-image.jpg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+.home-about h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.read-more {
+    color: rgb(19, 141, 19);
+    margin-top: 2em;
+}
