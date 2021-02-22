@@ -233,4 +233,12 @@ img {
   text-align: right;
   font-size: .8em;
 }
+
+.uni-author {
+  text-align: right;
+}
+
+.uni-author img {
+  width: 150px;
+}
 /*# sourceMappingURL=style.css.map */
