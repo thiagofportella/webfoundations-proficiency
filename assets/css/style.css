@@ -151,8 +151,15 @@ body {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 img {
@@ -216,5 +223,14 @@ img {
 
 .link-item {
   margin-bottom: .6em;
+}
+
+.goal-image {
+  background-image: url("../img/goals.jpg");
+}
+
+.photo-author {
+  text-align: right;
+  font-size: .8em;
 }
 /*# sourceMappingURL=style.css.map */
