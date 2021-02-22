@@ -92,3 +92,41 @@ img {
         width: 150px;
     }
 }
+
+
+// metas
+.metas-list-container {
+    margin-top: 5em;
+}
+    #metas-list {
+
+        li {
+            margin-bottom: 3em;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+#load-metas {
+    outline: none;
+    border: none;
+    color: white;
+    margin: 2em 0;
+    padding: 16px 20px;
+    background-color: seagreen;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: lighten(seagreen, 12);
+        scale: .95;
+        transition: .2s ease-out;
+    }
+
+}
+
+.load-button-container {
+    text-align: center;
+}

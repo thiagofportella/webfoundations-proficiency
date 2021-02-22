@@ -241,4 +241,38 @@ img {
 .uni-author img {
   width: 150px;
 }
+
+.metas-list-container {
+  margin-top: 5em;
+}
+
+#metas-list li {
+  margin-bottom: 3em;
+}
+
+#metas-list h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#load-metas {
+  outline: none;
+  border: none;
+  color: white;
+  margin: 2em 0;
+  padding: 16px 20px;
+  background-color: seagreen;
+  border-radius: 5px;
+}
+
+#load-metas:hover {
+  background-color: #3db974;
+  scale: .95;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.load-button-container {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
